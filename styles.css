@@ -7,7 +7,9 @@
 body {
   height: 100vh;
   display: flex;
-  background: #060AB2;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background: #4c6f9a;
 }
 
 .memory-game {
@@ -52,4 +54,30 @@ body {
 
 .front-face {
   transform: rotateY(180deg);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+  background-color: rgb(110, 148, 199);
+  padding: 1%;
+}
+
+.gamal {
+  border-radius: 50%;
+  width: 80px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.temps {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(247, 233, 129);
 }

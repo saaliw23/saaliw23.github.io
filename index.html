@@ -1,69 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
 
-  <title>Memory Game</title>
+  <title>Jeu de Memoire</title>
 
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <h1>Jeu de Memoire</h1>
+
+  <div class="temps">
+    <p>Meilleur temps : <span id="best-time">...</span> secondes</p>
+    <p>Nouveau temps : <span id="current-time">...</span> secondes</p>
+  </div>
+
   <section class="memory-game">
+
     <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/black-woman-in-a-yellow-dress-2635818.svg" alt="Aurelia" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="../img/aurelia.svg" alt="Aurelia" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/black-woman-in-a-yellow-dress-2635818.svg" alt="Aurelia" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="../img/vue.svg" alt="Vue" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/cartoon-1751223.svg" alt="Vue" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="../img/vue.svg" alt="Vue" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/cartoon-1751223.svg" alt="Vue" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="../img/angular.svg" alt="Angular" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/football-player-running-4267921.svg" alt="Angular" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="../img/angular.svg" alt="Angular" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/football-player-running-4267921.svg" alt="Angular" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="../img/ember.svg" alt="Ember" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/fox-2530031.svg" alt="Ember" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="../img/ember.svg" alt="Ember" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/fox-2530031.svg" alt="Ember" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/olives-1992013.svg" alt="Backbone" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="../img/backbone.svg" alt="Backbone" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/olives-1992013.svg" alt="Backbone" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
 
     <div class="memory-card" data-framework="react">
-      <img class="front-face" src="../img/react.svg" alt="React" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/warrior-1982054.svg" alt="React" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
     <div class="memory-card" data-framework="react">
-      <img class="front-face" src="../img/react.svg" alt="React" />
-      <img class="back-face" src="../img/js-badge.svg" alt="JS Badge" />
+      <img class="front-face" src="images/warrior-1982054.svg" alt="React" />
+      <img class="back-face" src="images/sugar-skull-1782019.svg" alt="JS Badge" />
     </div>
   </section>
 
   <script src="scripts.js"></script>
 </body>
+
+<footer>
+    <div class="inspro">
+      <p>Inspiration du Projet:</p>
+      <p><a href="https://marina-ferreira.github.io/memory-game/">https://marina-ferreira.github.io/memory-game/</a></p>
+    </div>
+    
+    <div class="moi">
+      <p>Saliou Pathe Sane</p>
+      <blockquote>Design Web A2023</blockquote>
+    </div>
+    
+    <div>
+      <a href="mailto:2338941@carrefour.cegepvicto.ca">
+          <img src="images/Nasser_portrait2.jpg" alt="GAMAL" class="gamal" />
+      </a>
+    </div>
+
+</footer>
+
 </html>
